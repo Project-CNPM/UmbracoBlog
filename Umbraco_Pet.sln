@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco_Pet", "Umbraco_Pet\Umbraco_Pet.csproj", "{FC3C0280-C4BB-41F9-BCA8-3C8DA1FD3E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanBlog.Core", "CleanBlog.Core\CleanBlog.Core.csproj", "{48A74F30-BA2C-49FB-AB1B-D2EE38B7AD7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC3C0280-C4BB-41F9-BCA8-3C8DA1FD3E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3C0280-C4BB-41F9-BCA8-3C8DA1FD3E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3C0280-C4BB-41F9-BCA8-3C8DA1FD3E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3C0280-C4BB-41F9-BCA8-3C8DA1FD3E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A74F30-BA2C-49FB-AB1B-D2EE38B7AD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A74F30-BA2C-49FB-AB1B-D2EE38B7AD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A74F30-BA2C-49FB-AB1B-D2EE38B7AD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A74F30-BA2C-49FB-AB1B-D2EE38B7AD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0524E34-BC1B-4B26-BC7F-B2F49C96C3F1}
+	EndGlobalSection
+EndGlobal
