@@ -1,0 +1,27 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@using ClientDependency.Core.Mvc
+@using CleanBlog.Core.Controllers
+@{
+    Layout = "Master.cshtml";
+    Html.EnableClientValidation();
+    Html.EnableUnobtrusiveJavaScript();
+
+    Html.RequiresJs("https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js");
+    Html.RequiresJs("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js");
+    Html.RequiresJs("/Scripts/jquery.validate.min.js");
+    Html.RequiresJs("/Scripts/jquery.validate.unobtrusive.min.js");
+    Html.RequiresJs("/Scripts/jquery.unobtrusive-ajax.min.js");
+    Html.RequiresJs("/Scripts/contactForm.js");
+}
+
+@Html.Partial("~/Views/Partials/pageHeader.cshtml")
+<!-- Main Content-->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+           @* @{ Html.Action("RenderForm", "ContactSurface"); }*@
+            @{ Html.RenderAction("RenderForm", "ContactSurface"); }
+        </div>
+    </div>
+</div>
+
